@@ -67,3 +67,82 @@
     #     return sum
 
     # print(sum_of_number(5))
+    
+# Q.6) Sum of numbers in a given range.
+
+    # def sum_of_numbers(L, R):
+    #     sum = 0
+        
+    #     for i in range(L, R+1):
+    #         sum = sum + i
+    #     return sum
+
+    # print(sum_of_numbers(1, 5))
+    
+# Q.7 Check Perfect Number.
+
+    # num = int(input("Enter a number: "))
+
+    # if num <= 0:
+    #     print("Not a Perfect Number")
+    # else:
+    #     total = 0
+        
+    #     for i in range(1, num // 2 + 1):
+    #         if num % i == 0:
+    #             total = total + i
+
+    #     if total == num:
+    #         print("Perfect Number")
+    #     else:
+    #         print("Not a Perfect Number")
+
+# Q.8) Factorial Calculation – recursion.
+
+    # def factorial(num):
+    #     if num == 0 or num == 1:
+    #         return 1
+    #     else:
+    #         return num * factorial(num -1)
+        
+    # num = int(input("Enter a number: "))
+
+    # if num < 0:
+    #     print("Factorial is not defined for negative numbers")
+    # else:
+    #     print("Factorial:", factorial(num))
+    
+# Q.9) Fibonacci Sequence.
+
+    # n = int(input("Enter how many terms you want: "))
+
+    # a, b = 0, 1
+
+    # if n <= 0:
+    #     print("Enter a Positive number")
+    # elif n == 1:
+    #     print(a)
+    # else:
+    #     print(a, b, end=" ")
+        
+    #     for _ in range(2, n):
+    #         c = a + b
+    #         print(c, end=" ")
+    #         a = b
+    #         b = c
+    
+# Q.10) GCD and LCM.
+
+    # def gcd(a, b):
+    #     while b != 0:
+    #         a, b = b, a % b
+    #     return a
+
+    # def lcm(a, b):
+    #     return (a*b) // gcd(a, b)
+
+    # a = int(input("Enter first number: "))
+    # b = int(input("Enter second number: "))
+
+    # print("GCD:", gcd(a, b))
+    # print("LCM:", lcm(a, b))
