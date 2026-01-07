@@ -52,3 +52,53 @@
     #     return count
     # print(count_vowels("JavAScript"))
     
+    # Output: 3
+    
+# Q6. Find Maximum in List
+
+    # arr = [3, 7, 2, 9]
+    # max_val = arr[0]
+    # for num in arr:
+    #     if num > max_val:
+    #         max_val = num
+    # print(max_val)
+
+    # Output: 9
+
+# Q7. Remove Duplicates
+
+    # arr = [1,2,2,3,4,4]
+    # print(list(set(arr)))
+    
+    # Output: [1, 2, 3, 4]
+    
+# Q8. Fibonacci Series
+
+    # a, b = 0, 1
+    # for i in range(5):
+    #     print(a, end=" ")
+    #     a, b = b, a+b
+    
+    # Output: 0 1 1 2 3 
+
+# Q9. Prime Number
+
+    # n = 7
+    # is_prime = True
+    # for i in range(2,n):
+    #     if n % i == 0:
+    #         is_prime = False
+    #         break
+    # print(is_prime)
+    
+    # Output: True
+
+# Q10. Character Frequency
+
+    # s = "apple"
+    # freq = {}
+    # for ch in s:
+    #     freq[ch] = freq.get(ch,0) + 1
+    # print(freq)
+
+    # Output: {'a': 1, 'p': 2, 'l': 1, 'e': 1}
