@@ -102,3 +102,13 @@
     # print(freq)
 
     # Output: {'a': 1, 'p': 2, 'l': 1, 'e': 1}
+    
+# Q11. Sum of Array
+
+    # arr = [1,2,3,4]
+    # total = 0
+    # for num in arr:
+    #     total += num
+    # print(total)
+
+    # Output: 10
